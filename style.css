@@ -1,0 +1,88 @@
+/* ===== estilizando o card ===== */
+
+.titulo{
+    text-align: center;
+    /* background-color: red; */
+    padding: 10px 0;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card{
+    max-width: 960px;
+    margin: auto;
+    padding-inline: 16px;
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit, minmax(275px, 1fr));
+    }
+.card-item{
+border: 1px solid black;
+display: flex;
+flex-direction: column;
+row-gap: 5px;
+text-align: center;
+color: rgb(134, 131, 131);
+background-color: white;
+padding: 25px 20px;
+margin: 0 5px;
+}
+
+/* .card-item:nth-child(2) {
+    border-right: 1px solid 
+    rgba(114, 117, 134, .25);
+	border-left: 1px solid 
+    rgba(114, 117, 134, .25);
+} */
+
+.card-titulo{
+    font-size: 1.5rem;
+    color: black;
+    padding: 24px 0;
+}
+
+.card-dinheiro{
+    font-weight: 500;
+    /* color: red; */
+    padding: 10px 0;
+}
+
+.card-dolar{
+    font-size: 1.25rem;
+}
+
+.card-valor{
+    font-size: 3rem;
+    font-weight: 800;
+    color: black;
+}
+
+.card-list{
+    list-style: none;
+    font-size: 0.875rem;
+    padding: 0px 10px 20px;
+}
+
+.card-botao{
+    font: inherit;
+    font-weight: 600;
+    color: black;
+    border: none;
+    outline: none;
+    margin: auto auto 0;
+    border-radius: 8px;
+    background-color: blueviolet;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+.card-botao:hover{
+    background-color: black;
+    color: blueviolet;
+}
